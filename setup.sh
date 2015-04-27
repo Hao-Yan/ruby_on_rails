@@ -11,6 +11,7 @@ curl -L get.rvm.io | bash -s stable
 source ~/.bashrc
 source ~/.bash_profile
 sed -i -e 's/ftp\.ruby-lang\.org\/pub\/ruby/ruby\.taobao\.org\/mirrors\/ruby/g' ~/.rvm/config/db
+sudo reboot # the reboot is needed
 
 # use rvm to install the latest ruby
 rvm install ruby
