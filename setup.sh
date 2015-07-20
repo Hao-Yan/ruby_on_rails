@@ -40,3 +40,15 @@ gem install passenger
 
 # install nginx
 rvmsudo passenger-install-nginx-module
+
+# Copy the content here (https://raw.githubusercontent.com/Hao-Yan/nginx-config/master/nginx/nginx) to the following file
+sudo vim /etc/init.d/nginx
+
+sudo chmod +x /etc/init.d/nginx
+
+sudo /usr/sbin/update-rc.d -f nginx defaults
+
+sudo service nginx stop
+sudo service nginx start
+sudo service nginx restart
+
