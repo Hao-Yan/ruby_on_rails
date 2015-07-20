@@ -15,6 +15,10 @@ sudo reboot # the reboot is needed
 
 # use rvm to install the latest ruby
 rvm install ruby
+
+# if encounter this problem: rvm is not a function, run the following script
+source ~/.rvm/scripts/rvm
+
 ruby -v
 
 # change source to taobao
