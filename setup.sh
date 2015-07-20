@@ -35,3 +35,8 @@ sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get install nodejs
 
+# install passenger
+gem install passenger
+
+# install nginx
+rvmsudo passenger-install-nginx-module
