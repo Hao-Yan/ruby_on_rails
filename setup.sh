@@ -19,6 +19,12 @@ rvm install ruby
 # if encounter this problem: rvm is not a function, run the following script
 source ~/.rvm/scripts/rvm
 
+# list the ruby you have installed
+rvm list
+
+# use the version installed as default, say it is 1.9.3
+rvm use 1.9.3 --default
+
 ruby -v
 
 # change source to taobao
@@ -52,3 +58,5 @@ sudo service nginx stop
 sudo service nginx start
 sudo service nginx restart
 
+# install mysql if needed
+sudo apt-get install mysql-server mysql-client libmysqlclient-dev
